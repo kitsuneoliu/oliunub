@@ -1,0 +1,98 @@
+/* ===== RESET ===== */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== BODY + BACKGROUND ===== */
+body {
+    --text: #e6f2ff;
+    --subtext: #7fd3ff;
+
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: var(--text);
+
+    /* 🌌 BACKGROUND ĐỨNG IM */
+    background-image: url("./img/back.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    background-color: #050816;
+
+    min-height: 100vh;
+}
+
+/* ===== MAIN ===== */
+main {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* ===== GRID ===== */
+.grid {
+    width: 92%;
+    max-width: 1400px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 26px;
+}
+
+/* ===== CARD (KHÔNG NỀN – VẪN CLICK) ===== */
+.card {
+    height: 190px;
+    padding: 16px 10px;
+    text-decoration: none;
+
+    background: transparent;
+    border: none;
+    box-shadow: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+/* ===== ICON ===== */
+.card img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    margin-bottom: 10px;
+
+    opacity: 1;
+    transition: transform 0.25s ease;
+}
+
+.card:hover img {
+    transform: scale(1.15);
+}
+
+/* ===== TEXT ===== */
+.role-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--subtext);
+    text-align: center;
+}
+
+.role-desc {
+    margin-top: 6px;
+    font-size: 13px;
+    text-align: center;
+    color: #9fb7ff;
+}
+
+/* ===== HOVER TEXT ===== */
+.card:hover .role-name {
+    color: #ffb3c1;
+}
+
+.card:hover .role-desc {
+    color: #ffd6e0;
+}
