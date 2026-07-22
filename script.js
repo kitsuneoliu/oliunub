@@ -31,7 +31,10 @@ const roles = [
     { name: "Wolf Shaman", img: "Wolf_Shaman.webp", desc: "Sói pháp sư" },
     { name: "Wolf Summoner", img: "Wolf_Summoner.webp", desc: "Sói triệu hồi" },
     { name: "Wolf Time Traveler", img: "Wolf_Time_Traveler_Icon.svg", desc: "Sói thời gian" },
-    { name: "Wolf Trickster", img: "Wolf_trickster.webp", desc: "Sói lừa đảo" }
+    { name: "Wolf Trickster", img: "Wolf_trickster.webp", desc: "Sói lừa đảo" },
+    { name: "Firework Wolf", img: "Firework_Wolf.webp", desc: "Sói pháo hoa" },
+    { name: "Wolf Magician", img: "Wolf_Magician.webp", desc: "Sói ảo thuật gia" },
+    { name: "Snatcher Wolf", img: "Snatcher_Wolf.webp", desc: "Sói đạo tặc" },
 
     // anh giữ nguyên toàn bộ danh sách của anh
 ];
